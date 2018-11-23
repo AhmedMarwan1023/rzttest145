@@ -1500,7 +1500,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
   .setColor(0x5500ff)
-  .setDescription(`**Thank You For Adding The Bot To Your Server If You Need Any Help In The Bot Go To Suuport Server** https://discord.gg/htNpU3J`)
+  .setDescription(`**Thank You For Adding The Bot To Your Server If You Need Any Help In The Bot Go To Suuport Server** https://discord.gg/ZDCE8Hx`)
       guild.owner.send(embed)
 });
 
